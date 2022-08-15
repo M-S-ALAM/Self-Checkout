@@ -30,7 +30,7 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 </pre>
 
 
-### 2.0 Model:-
+### Model:-
 ## 2.1 Yolo-V5:-
 YOLO (You Only Look Once) models are used for Object
 detection with high performance. They can be used for realtime object detection based on the data streams. YOLO divides
