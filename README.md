@@ -18,9 +18,9 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 <li> The goal is to fix the problem. When a customer puts his/her products on the checkout counter.</li>
 <li> Negligible amount of errors. </li>
 <li> There are latency limitations. </li>
-## 1.5 Performance metric:-
-<li> Checkout Accuracy(cAcc) </li>
-<li> Average Counting Distance(ACD) </li>
-<li> Mean Category Counting Distance(mCCD) </li>
-<li> Mean Category Intersection of Union(mCIoU) </li>
+### 1.5 Performance metric:-
+<li> Checkout Accuracy(cAcc). </li>
+<li> Average Counting Distance(ACD). </li>
+<li> Mean Category Counting Distance(mCCD). </li>
+<li> Mean Category Intersection of Union(mCIoU). </li>
 
