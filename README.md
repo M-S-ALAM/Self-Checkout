@@ -29,3 +29,5 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 <li> Mean Category Intersection of Union(mCIoU). </li>
 </pre>
 
+
+
