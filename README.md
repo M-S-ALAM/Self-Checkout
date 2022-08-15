@@ -15,12 +15,17 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 <li> https://cocoa.ethz.ch/downloads/2017/05/2316\_final\_submission.pdf </li>
 </pre>
 ## 1.4 Bussnies Objective and Constraints:-
+<pre>
 <li> The goal is to fix the problem. When a customer puts his/her products on the checkout counter.</li>
 <li> Negligible amount of errors. </li>
 <li> There are latency limitations. </li>
+</pre>
+
 ### 1.5 Performance metric:-
+<pre>
 <li> Checkout Accuracy(cAcc). </li>
 <li> Average Counting Distance(ACD). </li>
 <li> Mean Category Counting Distance(mCCD). </li>
 <li> Mean Category Intersection of Union(mCIoU). </li>
+</pre>
 
