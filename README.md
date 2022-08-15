@@ -1,1 +1,1 @@
-# Self-Checkout
+# Retail Products Self Checkout System
