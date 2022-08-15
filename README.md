@@ -30,4 +30,16 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 </pre>
 
 
+### 2.0 Model:-
+## 2.1 Yolo-V5:-
+YOLO (You Only Look Once) models are used for Object
+detection with high performance. They can be used for realtime object detection based on the data streams. YOLO divides
+an image into a grid system, and each grid detects objects
+within itself.
+The General Object Detector will have a head to forecast
+classes and bounding boxes and a backbone for pre-training.
+Platforms with a GPU or a CPU can run backbones. Head
+can be either a one-stage (YOLO, SSD, RetinaNet, etc.) or a
+two-stage (Sparse prediction) model
+
 
