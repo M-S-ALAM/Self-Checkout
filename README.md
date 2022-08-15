@@ -9,7 +9,7 @@ Source:-https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset<
 ## 1.3 Source
 <pre>
 <li> https://www.kaggle.com/datasets/diyer22/retail-product-checkout-dataset </li>
-<li> ttps://github.com/jacobgil/pytorch-grad-cam </li>
+<li> https://github.com/jacobgil/pytorch-grad-cam </li>
 <li> https://www.analyticsvidhya.com/blog/2021/12/how-to-use-yolo-v5-object-detection-algorithm-for-custom-object-detection-an-example-use-case/ </li>
 <li> https://subscription.packtpub.com/book/data/9781838827069/7/ch07lvl1sec34/overview-of-faster-r-cnn </li>
 <li> https://cocoa.ethz.ch/downloads/2017/05/2316\_final\_submission.pdf </li>
