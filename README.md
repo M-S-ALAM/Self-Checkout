@@ -40,6 +40,33 @@ The General Object Detector will have a head to forecast
 classes and bounding boxes and a backbone for pre-training.
 Platforms with a GPU or a CPU can run backbones. Head
 can be either a one-stage (YOLO, SSD, RetinaNet, etc.) or a
-two-stage (Sparse prediction) model
+two-stage (Sparse prediction) model.
 
+## 2.2  Faster RCNN:-
+we employ an object detection model based on the Faster
+RCNN architecture. Modern object detection techniques are
+implemented by the open source system Detectron2-[15].
+Based on the PyTorch framework, it was created. The feature
+extractor is Resnet-101, and the model is built on a Faster
+RCNN architecture. We can initialize our model with weights
+from an object detector.
+We pretrained weights in the detectron2 model zoo before
+starting the training. It takes about 4 hours to train this on
+the RPC dataset for 10000 iterations.
+
+## 2.3 Mask-RCNN:-
+Mask R-CNN was built using Faster R-CNN. While Faster
+R-CNN has 2 outputs for each candidate object, a class label
+and a bounding-box offset, Mask R-CNN is the addition of
+a third branch that outputs the object mask. The additional
+mask output is distinct from the class and box outputs,
+requiring the extraction of a much finer spatial layout of an
+object.
+The essential component of Fast/Faster R-CNN that is lacking
+from Mask R-CNN is the pixel-to-pixel alignment. The same
+two-step method, with an identical first stage, is used by Mask
+R-CNN (which is RPN). In the second stage, Mask R-CNN
+additionally produces a binary mask for each RoI in addition
+to class and box offset predictions. In contrast, the majority
+of current systems rely on mask predictions for categorization.
 
