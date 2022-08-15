@@ -1,5 +1,7 @@
 # Retail Products Self Checkout System
-Machine Learning/Deep Learning
+
+Technology used Computer Vision.
+
 # 1.Business Problem
 ### 1.1 Problem Description
 A self checkout store aims to provide customers with a satisfying experience, prevent time loss, and eliminate long lines and lengthy checkout times by implementing a system that streamlines the shopping experience and keeps track of each customer's choices and preferences without requiring the customer to do anything. Customers can enter a store, browse, and leave without having to stand in line or self-check out at the entrance thanks to self checkout technology in the retail industry. Particularly in the supermarket industry, a new era in retail has begun. Retail Products Self Checkout System is an AI-based approach for grocery superstores which allows customers to conveniently walk in, purchase their products and simply walk out of the stores. Customers need not to wait for long queues for billing or wait for manually self scanning to get the billing done which greatly improves customer happiness and boosts sales.
@@ -45,7 +47,7 @@ two-stage (Sparse prediction) model.
 ## 2.2  Faster RCNN:-
 we employ an object detection model based on the Faster
 RCNN architecture. Modern object detection techniques are
-implemented by the open source system Detectron2-[15].
+implemented by the open source system Detectron2.
 Based on the PyTorch framework, it was created. The feature
 extractor is Resnet-101, and the model is built on a Faster
 RCNN architecture. We can initialize our model with weights
@@ -69,4 +71,5 @@ R-CNN (which is RPN). In the second stage, Mask R-CNN
 additionally produces a binary mask for each RoI in addition
 to class and box offset predictions. In contrast, the majority
 of current systems rely on mask predictions for categorization.
+
 
