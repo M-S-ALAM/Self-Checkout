@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>A Retail self-checkout System.</title>
+        <style>
+        body{
+          font-size:20px;
+          color:#333;
+          }
+            .table-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100%;
+            }
+
+            table {
+              width: 100%;
+              margin-right:auto;
+              margin-left:0;
+            }
+  </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simple image search engine</h1>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="query_img"><br>
+                <input type="submit">
+            </form>
+            <h2>Query:</h2>
+            {% if query_path %}
+            <img src="{{ query_path }}" width="400px">
+            {% endif %}
+            <h2>Results:</h2>
+            <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+                <img src="{{ scores }}" height="400px">
+                {{ table | safe}}
+            </figure>
+            <figure style="float: left; margin-right: 40px; margin-bottom: 20px;">
+                <p>{{ text }}</p>
+                <img src="{{ qrcodes }}" height="400px">
+            </figure>
+        </div>
+    </body>
+</html>
